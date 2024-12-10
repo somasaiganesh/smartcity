@@ -1,0 +1,516 @@
+body::-webkit-scrollbar {
+	display: none;
+}
+
+body {
+	overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+button>a {
+	text-decoration: none;
+	color: black;
+}
+
+.NavItems {
+	list-style: none;
+	display: flex;
+	gap: 3rem;
+	font-size: 22px;
+	font-weight: 400;
+}
+
+.NavItems>li>a {
+	text-decoration: none;
+	color: white;
+}
+
+li {
+	width: fit-content;
+}
+
+.navbar {
+	padding: 15px;
+	background: transparent;
+	color: white;
+}
+
+.login_btn>button {
+	outline: none;
+	border-radius: 50px;
+	border: 2px solid white;
+	padding: 10px;
+	font-size: large;
+	font-weight: 400;
+	width: 150px;
+	background: transparent;
+	color: white;
+}
+
+.home_contents {
+	margin-top: 0rem;
+}
+/* Update the .bitimage styles */
+/* Update the .bitimage styles */
+/* Update the .bitimage styles */
+.bitimage {
+	width: 100vw;
+	height: 600px; /* Adjust the height as needed */
+	position: fixed; /* Position the image fixed */
+	top: 0; /* Position the image at the top */
+	left: 0; /* Position the image at the left */
+	z-index: -1; /* Place the image behind other content */
+	overflow: hidden; /* Hide any overflowing content */
+}
+
+.bitimage>img {
+	width: 100%;
+	height: 100%;
+	object-fit: fill;
+}
+
+/* Update the .home_contents styles to add margin-top */
+.home_contents {
+	margin-top: 10px; /* Add margin to push content below the image */
+}
+/* Update the carousel control styles */
+.carousel-control-prev, .carousel-control-next {
+	top: 0%; /* Adjust the position of the controls vertically */
+	/* Center the controls vertically */
+}
+
+/* Rest of your existing styles */
+
+/* Rest of your existing styles */
+
+/* Rest of your existing styles */
+
+/* Rest of your existing styles */
+.landtext {
+	color: aliceblue;
+}
+
+.landtext>h1 {
+	padding-top: 80px;
+	font-size: 3.5rem;
+}
+
+.landbtn {
+	padding-top: 50px;
+	padding-left: 50px;
+	display: flex;
+	gap: 2rem;
+}
+
+.landbtn>button {
+	width: 150px;
+	padding: 15px;
+	border-radius: 50px;
+	outline: none;
+	border: 2px solid white;
+	background: transparent;
+	color: white;
+}
+
+#netbanking {
+	background-color: white;
+	padding-top: 4rem;
+	color: black;
+}
+
+.netbanktext {
+	padding-top: 100px;
+}
+
+.netbanktext>ul>li>img {
+	width: 30px;
+	height: 30px;
+	margin-right: 20px;
+}
+
+.netbanktext {
+	padding-right: 50px;
+}
+
+.netbanktext>ul {
+	margin-top: 2rem;
+	text-align: left;
+}
+
+.netbanktext>ul>li {
+	list-style: none;
+	margin-top: 10px;
+	font-size: larger;
+}
+
+.netbankbtn>button {
+	padding: 10px;
+	margin: 2rem;
+	width: 155px;
+}
+
+#services {
+	background-color: white;
+	padding-top: 1rem;
+}
+
+.services_img>img {
+	width: 175px;
+	height: 150px;
+	margin: 25px;
+}
+
+.card {
+	align-items: center;
+	width: 400px;
+	height: 400px;
+	margin: 30px;
+	border-radius: 20px;
+	box-shadow: 20px 20px 60px #949494, -20px -20px 60px #ffffff;
+}
+
+.card>h6 {
+	margin: 35px;
+	font-size: large;
+	font-weight: 400;
+	padding-left: 20px;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: black;
+	padding-bottom: 10px;
+}
+
+/* styles.css */
+#contact {
+	background-image: url('../images/2480553.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	/* Prevent the background from repeating */
+}
+
+.section-header {
+	text-align: center;
+	margin: 0 auto;
+	padding: 1px 0;
+	font: 300 60px 'Oswald', sans-serif;
+	color: black;
+	text-transform: uppercase;
+	letter-spacing: 6px;
+}
+
+.contact-wrapper {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 0 auto;
+	padding: 20px;
+	position: relative;
+	max-width: 840px;
+}
+
+/* Left contact page */
+.form-horizontal {
+	/*float: left;*/
+	max-width: 400px;
+	font-family: 'Lato';
+	font-weight: 400;
+}
+
+.form-control, textarea {
+	max-width: 400px;
+	background-color: white;
+	color: black;
+	letter-spacing: 1px;
+}
+
+.send-button {
+	margin-top: 15px;
+	height: 34px;
+	right: 5%;
+	width: 400px;
+	overflow: hidden;
+	transition: all .2s ease-in-out;
+}
+
+.alt-send-button {
+	width: 400px;
+	height: 34px;
+	transition: all .2s ease-in-out;
+}
+
+.send-text {
+	display: block;
+	margin-top: 10px;
+	font: 700 12px 'Lato', sans-serif;
+	letter-spacing: 2px;
+}
+
+.alt-send-button:hover {
+	transform: translate3d(0px, -29px, 0px);
+}
+
+/* Begin Right Contact Page */
+.direct-contact-container {
+	max-width: 400px;
+}
+
+/* Location, Phone, Email Section */
+.contact-list {
+	list-style-type: none;
+	margin-left: -30px;
+	padding-right: 20px;
+}
+
+.list-item {
+	line-height: 4;
+	color: black;
+}
+
+.contact-text {
+	font: 550 20px 'Lato', sans-serif;
+	letter-spacing: 1.9px;
+	color: black;
+}
+
+.place {
+	margin-left: 62px;
+}
+
+.phone {
+	margin-left: 56px;
+}
+
+.gmail {
+	margin-left: 53px;
+}
+
+.contact-text a {
+	color: black;
+	text-decoration: none;
+	transition-duration: 0.2s;
+}
+
+.contact-text a:hover {
+	color: blue;
+	text-decoration: none;
+}
+
+/* Social Media Icons */
+.social-media-list {
+	position: relative;
+	font-size: 22px;
+	text-align: center;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.social-media-list li a {
+	color: #fff;
+}
+
+.social-media-list li {
+	position: relative;
+	display: inline-block;
+	height: 60px;
+	width: 60px;
+	margin: 10px 3px;
+	line-height: 60px;
+	border-radius: 50%;
+	color: #fff;
+	background-color: #006D5B;
+	cursor: pointer;
+	transition: all .2s ease-in-out;
+}
+
+.social-media-list li:after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
+	border-radius: 50%;
+	opacity: 0;
+	box-shadow: 0 0 0 1px #006D5B;
+	transition: all .2s ease-in-out;
+}
+
+.social-media-list li:hover {
+	background-color: #fff;
+}
+
+.social-media-list li:hover:after {
+	opacity: 1;
+	transform: scale(1.12);
+	transition-timing-function: cubic-bezier(0.37, 0.74, 0.15, 1.65);
+}
+
+.social-media-list li:hover a {
+	color: #000;
+}
+
+.copyright {
+	font: 200 14px 'Oswald', sans-serif;
+	color: #555;
+	letter-spacing: 1px;
+	text-align: center;
+}
+
+hr {
+	border-color: rgba(255, 255, 255, .6);
+}
+
+/* Begin Media Queries*/
+@media screen and (max-width: 850px) {
+	.contact-wrapper {
+		display: flex;
+		flex-direction: column;
+	}
+	.direct-contact-container, .form-horizontal {
+		margin: 0 auto;
+	}
+	.direct-contact-container {
+		margin-top: 60px;
+		max-width: 300px;
+	}
+	.social-media-list li {
+		height: 60px;
+		width: 60px;
+		line-height: 60px;
+	}
+	.social-media-list li:after {
+		width: 60px;
+		height: 60px;
+		line-height: 60px;
+	}
+}
+
+@media screen and (max-width: 569px) {
+	.direct-contact-container, .form-wrapper {
+		float: none;
+		margin: 0 auto;
+	}
+	.form-control, textarea {
+		margin: 0 auto;
+	}
+	.name, .email, textarea {
+		width: 280px;
+	}
+	.direct-contact-container {
+		margin-top: 60px;
+		max-width: 280px;
+	}
+	.social-media-list {
+		left: 0;
+	}
+	.social-media-list li {
+		height: 55px;
+		width: 55px;
+		line-height: 55px;
+		font-size: 2rem;
+	}
+	.social-media-list li:after {
+		width: 55px;
+		height: 55px;
+		line-height: 55px;
+	}
+}
+
+.about {
+	background-color: white; /* Set the background color to white */
+	color: black;
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+	justify-content: center;
+	padding: 150px;
+	position: relative;
+}
+
+.about-img {
+	flex: 1;
+}
+
+.about-img img {
+	width: 500px;
+	height: 700px;
+	box-shadow: 2px 2px 6px 0 rgba(0, 0, 0, 0.3);
+}
+
+.about-text {
+	flex: 1;
+	/*width: 100px;*/
+	display: flex;
+	flex-flow: column wrap;
+}
+
+.about-text small, .about-text p, .about-text input, .about-text a {
+	flex: 1;
+	font-family: Roboto;
+}
+
+.about-text small {
+	color: #ffc342;
+	font-size: 18px;
+}
+
+.about-text h2 {
+	flex: 1;
+	font-family: Barlow Condensed;
+	font-size: 60px;
+	color: #191d34;
+	width: 450px;
+}
+
+.about-text label {
+	padding-bottom: 10px;
+	color: #506172;
+	font-weight: bolder;
+	font-family: Roboto;
+	letter-spacing: 1px;
+}
+
+.about-text p {
+	width: 500px;
+	line-height: 30px;
+	color: #506172;
+	font-weight: bolder;
+	padding: 50px 0;
+}
+
+.about-text a {
+	background-color: #fff;
+	border: 2px solid #014b85;
+	text-decoration: none;
+	border-radius: 5px;
+	width: 180px;
+	padding: 20px;
+	text-align: center;
+	margin-top: 50px;
+	color: #014b85;
+	font-weight: bolder;
+	font-size: 14px;
+}
+
+.about-text a:hover {
+	background-color: #014b85;
+	color: #fff;
+}
+
+@media screen and (max-width: 410px) {
+	.send-button {
+		width: 99%;
+	}
+}
+/* Add any other specific styles for the section here */
+/* Footer styles */
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 10px 0;
+}
