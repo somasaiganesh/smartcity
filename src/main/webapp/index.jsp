@@ -844,7 +844,7 @@ compo .text-content .job{
         <ul class="all-links">
           <li><a href="#home">Home</a></li>
           <li><a href="#services">Services</a></li>
-          <li><a href="#home.jsp">Go to Site</a></li>
+          <li><a href="home">Go to Site</a></li>
           
           <li><a href="#aboutus">About Us</a></li>
           <li><a href="#contact">Contact Us</a></li>
@@ -861,7 +861,7 @@ compo .text-content .job{
           <h1>SMART CITY</h1>
          
         </div>
-        <a href="home.jsp">Discover</a>
+        <a href="home">Discover</a>
       </div>
     </section>
 
