@@ -77,16 +77,16 @@ ul {
    
 
     <ul>
-        <li><a href="adminhome.jsp">Home</a></li>
+        <li><a href="adminhome">Home</a></li>
         
         <li class="dropdown">
             <a href="javascript:void(0)">View</a>
             <div class="dropdown-content">
-            	<a href="viewallcustomers.jsp">View Customers</a>
-            	<a href="viewallcities.jsp">View Cities</a>
-            	<a href="viewallabout.jsp">View About</a>
-            	<a href="viewalltouristattractions.jsp">View Tourist Attractions</a>
-            	<a href="viewqueries.jsp">View Queries</a>
+            	<a href="viewallcustomers">View Customers</a>
+            	<a href="viewallcities">View Cities</a>
+            	<a href="viewallabout">View About</a>
+            	<a href="viewalltouristattractions">View Tourist Attractions</a>
+            	<a href="viewqueries">View Queries</a>
             </div>
             
         </li>
@@ -94,28 +94,28 @@ ul {
         <li class="dropdown">
             <a href="javascript:void(0)">Delete</a>
             <div class="dropdown-content">
-            	<a href="deletecustomer.jsp">Delete Customer</a>
-            	<a href="deletehotel.jsp">Delete Hotel</a>
-            	<a href="deletehospital.jsp">Delete Hospital</a>
-            	<a href="deletecompany.jsp">Delete Company</a>
-            	<a href="deletemall.jsp">Delete Mall</a>
-            	<a href="deleterestaurant.jsp">Delete Restaurant</a>
-            	<a href="deletecollege.jsp">Delete College</a>
+            	<a href="deletecustomer">Delete Customer</a>
+            	<a href="deletehotel">Delete Hotel</a>
+            	<a href="deletehospital">Delete Hospital</a>
+            	<a href="deletecompany">Delete Company</a>
+            	<a href="deletemall">Delete Mall</a>
+            	<a href="deleterestaurant">Delete Restaurant</a>
+            	<a href="deletecollege">Delete College</a>
             </div>
         </li>
         
         <li class="dropdown">
             <a href="javascript:void(0)">Add</a>
             <div class="dropdown-content">
-            	<a href="addcity.jsp">Add City</a>
-            	<a href="addabout.jsp">Add About</a>
-            	<a href="addtouristattractions.jsp">Add Tourist Attractions</a>
-                <a href="addhotel.jsp">Add Hotel</a>
-                <a href="addhospital.jsp">Add Hospital</a>
-                 <a href="addcompany.jsp">Add Company</a>
-                <a href="addmall.jsp">Add Shopping Mall</a>
-                <a href="addrestaurant.jsp.">Add Restaurant</a>
-                <a href="addeducation.jsp">Add Colleges</a>
+            	<a href="addcity">Add City</a>
+            	<a href="addabout">Add About</a>
+            	<a href="addtouristattractions">Add Tourist Attractions</a>
+                <a href="addhotel">Add Hotel</a>
+                <a href="addhospital">Add Hospital</a>
+                 <a href="addcompany">Add Company</a>
+                <a href="addmall">Add Shopping Mall</a>
+                <a href="addrestaurant">Add Restaurant</a>
+                <a href="addeducation">Add Colleges</a>
             </div>
         </li>
         
@@ -123,14 +123,14 @@ ul {
         <li class="dropdown">
             <a href="javascript:void(0)">Update</a>
             <div class="dropdown-content">
-            	<a href="updatestatus.jsp">Update Status</a>
-            	<a href="updatecity.jsp">Update City</a>
-            	<a href="updateaboutcity.jsp">Update About</a>
-            	<a href="updatetouristattractions.jsp">Update Tourist Attractions</a>
+            	<a href="updatestatus">Update Status</a>
+            	<a href="updatecity">Update City</a>
+            	<a href="updateaboutcity">Update About</a>
+            	<a href="updatetouristattractions">Update Tourist Attractions</a>
             </div>
         </li>
         
-        <li><a href="index.jsp">Logout</a></li>
+        <li><a href="index">Logout</a></li>
     </ul>
 </body>
 </html>

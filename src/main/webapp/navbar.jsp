@@ -161,7 +161,7 @@ height: 100vh;
 	</div>
 	
 	<div class="login-register-button">
-   <%@ include file="icon.jsp" %>
+   <%@ include file="icon" %>
   </div>
 
 	<script>
